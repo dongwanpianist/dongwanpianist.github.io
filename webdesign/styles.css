@@ -1,0 +1,28 @@
+/* 색을 입혀보자 */
+#header { background-color: rgb(4, 117, 230);}
+#logo { background-color: #111964;}
+#menubar { background-color: rgb(127, 170, 209);}
+#slider { background-color: #308cca;}
+#contents { background-color: #445abb;}
+#footer { background-color: rgb(0, 52, 104);}
+
+* { margin: 0; padding: 0; }
+div { margin: 0 auto; }
+li { list-style: none; }
+
+#wrap { width: 800px; height: auto; overflow: hidden; }
+#header { width: 100%; height: 100px; }
+#logo { float: left; width: 150px; height: 50px; margin: 25px 0 0 25px; }
+.menubar  { position: relative; float: right; width: 500px; margin: 25px; }
+.menubar li { position: relative; float: left; width: 25%; text-align:center; }
+.menubar li a { display: block; padding: 10px 0; background-color: #18eaf1; }
+.submenubar { position: absolute; z-index: 100; display: none; }
+.submenubar li { width: 100%; }
+.submenubar li a { background-color: #1bdb6b; }
+.submenubar li a:hover { background-color: #159c4d; }
+
+#slider { position: relative; width: 3200px; height: 200px; }
+.slideImgs { float: left; position: relative; width: 800px; height: 200px; }
+
+#contents { width: 100%; height: 200px; }
+#footer { width: 100%; height: 100px; }

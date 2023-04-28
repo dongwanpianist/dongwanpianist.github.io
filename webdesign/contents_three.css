@@ -1,0 +1,11 @@
+#contents h2 { font-size: 15pt; color: cyan; font-family: "Arial Black"; padding: 5px 0 5px 0; margin: 2px 12px 15px 13px; border-bottom: 2px solid lightblue; }
+.content { position: relative; float: left; height: 200px; }
+#board { width: 350px; }
+#board li { margin: 10px; padding-left: 10px; }
+#gallery { width: 450px; height: 100%; background-color: #546acb; }
+#gallery ul, #banner ul { text-align: center; }
+#gallery li, #banner li { display: inline-block; margin: 0 5px 0 5px; width: 130px; height: 130px; background-color: white; }
+#gallery a { transition: 0.5s; }
+#gallery a:hover { opacity: 0.7; }
+#banner { width: 400px; }
+#banner li { width: 360px; }

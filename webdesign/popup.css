@@ -1,0 +1,6 @@
+#popup1 { width: 250px; height: 200px;
+			    position: absolute; z-index: 1000; left: 50%; top: 50%; margin: -100px 0 0 -125px; }
+.popup { display: none; background: white; border: 2px solid black; padding: 10px; }
+.popuptitle { font-size: 15pt; color: black; font-weight: 600; padding-bottom: 10px; border-bottom: 1px solid gray; margin-bottom: 10px; }
+.popupcontent { color: black; font-size: 11pt; }
+.popupclose { position: absolute; bottom: 0px; right: 0px; font-size: 10pt; color: #445abb; background-color: #ddf2f9; margin: 5px; padding: 3px 5px 3px 5px; font-weight: 600; border: 1px solid blue; }

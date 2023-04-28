@@ -1,0 +1,22 @@
+#wrap { width: 1200px; height: auto; margin: 0 auto; overflow: hidden; }
+#header { float: left; width: 100%; height: 100px; position: relative; z-index: 50; }
+#logo { float: left; width: 150px; height: 80px; margin: 10px 0 0 20px; }
+#menubar  { float: right; width: 600px; margin: 25px 50px 0 0; }
+#sliderWrap { float: left; position: relative; width: 1200px; height: 300px; z-index: 0; overflow: hidden; }
+#contents { float: left; width: 100%; height: 200px; overflow: hidden; }
+#footer { float: left; width: 100%; height: 100px; }
+
+.menubar li { position: relative; float: left; width: 25%; text-align: center; background-color: #18eaf1; }
+.menubar li a { display: block; padding: 10px 0; transition-duration: 0.4s; }
+.menubar li:hover > a { background-color: #08b7bd; color: white; }
+.submenubar { position: absolute; z-index: 100; display: none; }
+.submenubar li { width: 100%; }
+.submenubar li a { background-color: rgba(3, 97, 42, 0.8); transition-duration: 0.4s; color: white; }
+.submenubar li a:hover { background-color: #159c4d; }
+
+#logo_footer { float: left; width: 140px; height: 70px; margin: 15px 0 0 20px; }
+#copyright { float: left; width: 600px; height: 100px; text-align: center; margin-left: 120px; }
+#copyright p { color: #08b7bd; font-size: 10pt; padding-top: 40px; }
+#sns { float: right; width: 300px; }
+#sns ul { text-align: center; padding-right: 20px; }
+#sns li { display: inline-block; margin: 14px 5px 0 5px; width: 70px; height: 70px; background-color: cadetblue; }
